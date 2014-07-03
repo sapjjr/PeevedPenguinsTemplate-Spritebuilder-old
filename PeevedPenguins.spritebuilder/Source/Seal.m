@@ -11,12 +11,12 @@
 @implementation Seal
 
 // this is just standard initialiser code
-- (id)init {
-    self = [super init];
-    if (self ) {
-        CCLOG(@"Seal Created");
-    }
-    return self;
+//- (id)init {
+ //   self = [super init];
+ //   if (self ) {
+  //      CCLOG(@"Seal Created");
+ //   }
+ //   return self;
 }
 
 @end

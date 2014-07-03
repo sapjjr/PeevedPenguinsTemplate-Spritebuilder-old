@@ -11,12 +11,12 @@
 @implementation Penguin
 
 // this is just standard initialiser code
-- (id)init {
-    self = [super init];
-    if (self ) {
-        CCLOG(@"Penguin Created");
-    }
-    return self;
+//- (id)init {
+ //   self = [super init];
+ //   if (self ) {
+ //       CCLOG(@"Penguin Created");
+ //   }
+ //   return self;
 }
 
 @end

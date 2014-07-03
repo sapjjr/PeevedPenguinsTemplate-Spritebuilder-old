@@ -82,9 +82,9 @@
 		</dict>
 		<key>PeevedPenguinsAssets</key>
 		<dict>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
+			<true/>
+			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
 		<key>Sprites</key>

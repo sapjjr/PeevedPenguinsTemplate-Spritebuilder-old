@@ -27,6 +27,7 @@
 
 #import "AppDelegate.h"
 #import "CCBuilderReader.h"
+#import "MainScene.h"
 
 @implementation AppController
 

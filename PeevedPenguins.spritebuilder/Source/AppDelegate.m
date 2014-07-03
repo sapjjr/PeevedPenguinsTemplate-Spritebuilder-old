@@ -65,7 +65,7 @@
 {
     return [CCBReader loadAsScene:@"MainScene"];
     return [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] replaceScene:gamePlayScene];
+   // [[CCDirector sharedDirector] replaceScene:gamePlayScene];
 
     
 }

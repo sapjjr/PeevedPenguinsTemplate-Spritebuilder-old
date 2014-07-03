@@ -17,6 +17,6 @@
   //      CCLOG(@"Seal Created");
  //   }
  //   return self;
-}
+//}
 
 @end

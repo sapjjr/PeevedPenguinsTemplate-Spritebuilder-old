@@ -64,7 +64,7 @@
 - (CCScene*) startScene
 {
     return [CCBReader loadAsScene:@"MainScene"];
-    CCScene *gamePlayScene = [CCBReader loadAsScene:@"Gameplay"];
+    return [CCBReader loadAsScene:@"Gameplay"];
     [[CCDirector sharedDirector] replaceScene:gamePlayScene];
 
     

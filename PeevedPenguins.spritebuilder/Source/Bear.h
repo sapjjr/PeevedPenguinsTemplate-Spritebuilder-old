@@ -8,6 +8,6 @@
 
 #import "CCBReader.m"
 
-@interface Bear : CCBFile
+@interface Bear : CCNode
 
 @end

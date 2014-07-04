@@ -10,7 +10,6 @@
 
 @implementation Gameplay {
 
-
 //this is the implementation of the firing mechanism
 CCPhysicsNode *_physicsNode;
 CCNode *_catapultArm;
@@ -19,7 +18,7 @@ CCNode *_catapultArm;
 //is called when CCB file has cimpleted loading
 -(void)didLoadFromCCB {
     // tell this scene to accept touches
-    self.userInteractionEnabled = TRUE;
+    self.userInteractionEnabled = true;
 }
 
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
@@ -38,7 +37,7 @@ CCNode *_catapultArm;
     // manually create & apply a force  to launch the penguin
     CGPoint launchDirection = ccp(1, 0);
     CGPoint force = ccpMult(launchDirection, 8000);
-    [penguin.physicsBody applyForce:force  ];
+    [penguin.physicsBody applyForce:force ];
 }
 
 

@@ -435,8 +435,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>43</real>
-							<real>91</real>
+							<real>54</real>
+							<real>86</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -454,6 +454,14 @@
 							<false/>
 							<integer>0</integer>
 						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>rotation</string>
+						<key>type</key>
+						<string>Degrees</string>
+						<key>value</key>
+						<real>-0.43248757719993591</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -678,9 +686,9 @@
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
-			<real>5.4453125</real>
+			<real>0.0</real>
 			<key>position</key>
-			<real>10</real>
+			<real>3.9000000953674316</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

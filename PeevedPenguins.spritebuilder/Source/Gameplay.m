@@ -11,14 +11,22 @@
 @implementation Gameplay {
 
 //this is the implementation of the firing mechanism
-CCPhysicsNode *_physicsNode;
-CCNode *_catapultArm;
+    CCPhysicsNode *_physicsNode;
+    CCNode *_catapultArm;
+    
+    CCNode *_levelNode;
+    
 }
 
 //is called when CCB file has cimpleted loading
 -(void)didLoadFromCCB {
     // tell this scene to accept touches
     self.userInteractionEnabled = true;
+    
+    //levelloading this loads level 1 as child to the levelNode
+    CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
+    [_levelNode addChild:level];
+    
 }
 
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {

@@ -21,7 +21,7 @@
 //is called when CCB file has cimpleted loading
 -(void)didLoadFromCCB {
     // tell this scene to accept touches
-    self.userInteractionEnabled = true;
+    self.userInteractionEnabled = TRUE;
     
     //levelloading this loads level 1 as child to the levelNode
     //CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
